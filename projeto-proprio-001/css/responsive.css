@@ -1,0 +1,99 @@
+@media screen and (max-width: 870px){
+    .header .container .content{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        padding-top: 40px;
+    }
+    .header .container .content p{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .navbar{
+        display: block;
+        height: auto;
+    }
+    .navbar .logo{
+        margin: 0;
+        text-align: center;
+        display: block;
+    }
+    .navbar .menu{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: block;
+    }
+    .navbar .menu .menu-inline{
+        display: none;
+    }
+    .navbar .menu a:hover{
+        background: #c4686d;
+        border: none;
+    }
+    .dropbtn{
+        display: block;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .menu .dropdown{
+        justify-content: center;
+    }
+    .dropdown{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding-right:25px;
+    }
+    .dropdown a span:hover{
+        color: white;
+    }
+    .dropdown-content{
+        display: none;
+        position: relative;
+        width: auto;
+        margin: 2px;
+    }
+    .dropdown-content a{
+        color: black;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #f8f8f8;
+    }
+    .dropdown-content a:hover{
+        color: white;
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+    .dropdown:hover .dropdown-content a:hover{
+        background: #c4686d;
+        color: white;
+        display: block;
+    }
+    .header .container .content{
+        text-align: left;
+        padding-top: 60px;
+    }
+    .header .container .content{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        padding-top: 100px;
+    }
+    .header .container .content p{
+        padding: 0;
+        margin: 0;
+    }
+}
